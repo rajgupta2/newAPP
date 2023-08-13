@@ -1,0 +1,17 @@
+{
+  "name": "new-app",
+  "version": "1.0.0",
+  "description": "\"New app for sign -in page\"",
+  "main": "./Route/Home.js",
+  "scripts": {
+    "start": "node ./Route/Home.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.3"
+  }
+}

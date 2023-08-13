@@ -1,0 +1,23 @@
+
+<div class="container my-5 pt-5">
+    <a href="/Sign-up">Sign-up</a>
+    <h1 class="text-success text-center">Login Page </h1>
+    <p id="presponse" class="alert alert-dark text-center h4 "><% if(locals.msg){ %>
+        <%= msg%>
+        <% } %></p>
+    <div id="container">
+
+      
+        <div class="col-sm-12">
+            
+            <form action="/Sign-in" method="post" id="login-form">
+                <input  id="Email" name="Email" placeholder="Email" type="text" value="" />
+                <input  id="Password" name="Password" placeholder="Password" type="password" />
+                <button type="submit" class=" btn btn-success btn-block my-4">Login</button>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+
